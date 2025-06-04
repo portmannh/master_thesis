@@ -14,11 +14,11 @@ This repository contains all code implemented by Hannah Portmann for the Master 
 
 ## Repository Structure
 - '/datasets': scripts for statistical descriptions of datasets
-- '/correlational_analyses': scripts for correlating sleep stage percentages and durations with age and plotting the correlations
+- '/correlational_analyses': scripts for correlating sleep stage percentages and durations with age
 - '/data_preparation': scripts for preparing datasets to be used as input for pretext task
-- '/pretext_task': scripts for training and testing the automated sleep staging model, as well as computing different evaluation metrics and plotting results
-- '/age_regression': scripts for extracting features from the pretext task model and training and evaluating different age regression models and plotting the results
-- '/mci_classification': scripts for training and evaluating models for MCI classification and plotting the results
+- '/pretext_task': scripts for training and testing the automated sleep staging model, as well as computing different evaluation metrics
+- '/age_regression': scripts for extracting features from the pretext task model and training and evaluating different age regression models
+- '/mci_classification': scripts for training and evaluating models for MCI classification
 - 'my_usleep.py': implementation of automated sleep scoring model for pretext task (based on Perslev et al., 2021)
 - 'requirements.txt': requirements for environment to run these scripts
 
